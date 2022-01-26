@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
+  console.log('re-rendering', currentPage)
 
 //   choose which page is rendered
   const renderPage = () => {
@@ -14,10 +15,10 @@ export default function PortfolioContainer() {
       return <Home />;
     }
     if (currentPage === 'About') {
-      return <About />;
+      return <About style={{color: "#61dafb"}} currentPage={currentPage} />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'Projects') {
+      return <Projects />;
     }
     return <Contact />;
   };
