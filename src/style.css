@@ -1,0 +1,748 @@
+@charset "utf-8";
+body {
+    background-color: silver;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 55vw;
+    background-image: url("./images/sam1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+    z-index: 1;
+    margin-top: -10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin-right: 30px;
+    font-family: monospace, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+nav li a:hover {
+    background: silver;
+    color: black;
+    box-shadow: whitesmoke;
+    width: 48%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.home {
+    display: flex;
+    height: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 22px;
+    align-items: center;
+}
+
+.home {
+    font-weight: bold;
+    color: white;
+}
+
+.text-container p:nth-child(1) {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+.text-container p:nth-child(2) {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 45px;
+}
+
+.text-container p:nth-child(3) {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: burlywood;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+
+.text-container p {
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.text-container {
+    position: absolute;
+    left: 63%;
+    top: 58%;
+    transform: translate(-13%, -42%);
+}
+
+.about-container button,
+.text-container button {
+    width: 145px;
+    height: 45px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    outline: none;
+    margin: 10px 10px;
+}
+
+.hire-btn {
+    border: 2px solid darkgrey;
+    color: black;
+}
+
+.down-cv {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.down-cv:hover {
+    transform: scale(1.1);
+    border: solid;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+button:hover {
+    transform: scale(1.1);
+    border: solid;
+    cursor: pointer;
+}
+
+.model {
+    flex-grow: 1 3 2;
+    height: 35vw;
+    position: relative;
+    bottom: 0px;
+    margin: 10%;
+    padding: .5%;
+}
+
+.about-container {
+    width: 89%;
+    height: 390px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 70px auto 70px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-container img {
+    height: 45vh;
+    margin-left: 10px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-text p:nth-child(1) {
+    color: #403e3e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+    margin: 0 3;
+    /* margin-bottom: 18px; */
+}
+
+.about-text p:nth-child(2) {
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    line-height: 5px;
+    /* margin-bottom: 12px; */
+}
+
+.about-text p:nth-child(3),
+.about-text p:nth-child(4),
+.resumePage p {
+    color: #7e7d7d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 2%;
+}
+
+.resumePage button {
+    width: 120px;
+    height: 40px;
+    color: black;
+    outline: none;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    height: 600px;
+    background-color: #FFFF;
+    font-weight: bold;
+    padding: 5% 10% 0px 10%;
+}
+
+.projects-text p:nth-child(1) {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #3e3d3d;
+    font-size: 30px;
+    line-height: 0px;
+    margin-bottom: 21px;
+}
+
+.projects-text p:nth-child(2) {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #3e3e3d;
+    font-size: 15px;
+    line-height: 5px;
+    margin-bottom: 6px;
+    word-wrap: wrap;
+}
+
+.projects-text p:nth-child(3) {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7e7d7d;
+    font-size: 12px;
+    font-weight: none;
+    margin: 0px 0px;
+}
+
+.projects-text {
+    width: 500px;
+    margin: 20px 0px;
+}
+
+.slideshow {
+    width: 700px;
+    height: 525px;
+    overflow: hidden;
+}
+
+.middle {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 14px;
+    border: 4px solid black;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover {
+    border: 4px solid slategray;
+    transform: translate(0, -25%);
+}
+
+nav.bar:hover {
+    outline: black;
+    background: #FFFF;
+    cursor: poitner;
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img {
+    width: 100%;
+}
+
+#r1:checked~.s1 {
+    margin-left: 0;
+}
+
+#r2:checked~.s1 {
+    margin-left: -20%;
+}
+
+#r3:checked~.s1 {
+    margin-left: -40%;
+}
+
+#r4:checked~.s1 {
+    margin-left: -60%;
+}
+
+#r5:checked~.s1 {
+    margin-left: -80%;
+}
+
+.contact {
+    width: 100%;
+    height: 280px;
+    background-image: url("./images/black-box.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.contact p {
+    color: #FFFF;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid #FFFF;
+}
+
+.contact button {
+    width: 200px;
+    height: 40px;
+    background-color: #FFFF;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+
+footer {
+    height: 300px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p:nth-child(1) {
+    font-size: 17px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px
+}
+
+footer p:nth-child(2) {
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+
+.social-media a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.copyright {
+    color: #565555;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.social-media i {
+    color: black;
+}
+
+.social-media a:hover,
+.a-social-b a:hover {
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.social-media a:hover i,
+.a-social-b a:hover i {
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+}
+
+.a-social-b {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.a-social-b a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.a-social-b i {
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+
+/* ------------------------------
+$desktop:1200px; 
+$laptop:1024px;
+$tablet:768px;
+$phone:480px;
+-------------------------------*/
+
+@media screen and (max-width: 1024px) and (min-width:768px) {
+    body,
+    .projects {
+        background: black;
+        padding: 3px;
+        margin: 1px;
+    }
+    .model {
+        top: 97px;
+    }
+    nav ul li a {
+        display: block;
+        font-size: 20px;
+        background: white;
+        color: black;
+    }
+    nav {
+        background: white;
+        background-size: cover;
+    }
+    .navigation {
+        top: 250px
+    }
+    .about-container img {
+        height: 150px;
+    }
+    .about-text p,
+    .about-text p button {
+        font-size: 12px;
+        color: black;
+    }
+    .about-text p:nth-child(1) {
+        font-size: 23px;
+        line-height: 0px;
+        margin-bottom: 14px;
+    }
+    .about-text p:nth-child(2) {
+        font-size: 16px;
+        line-height: 5px;
+        margin-bottom: 10px;
+    }
+    .about-text p:nth-child(3),
+    .about-text p:nth-child(4) {
+        font-size: 14px;
+        padding: 2%;
+    }
+    .projects-text p:nth-child(1) {
+        color: white;
+        font-size: 24px;
+        line-height: 0px;
+        margin-bottom: 21px;
+        margin-left: 100px;
+    }
+    .projects-text p:nth-child(2) {
+        color: white;
+        font-size: 12px;
+        line-height: 5px;
+        margin-bottom: 6px;
+        margin-left: 100px;
+        word-wrap: wrap;
+    }
+    .projects-text p:nth-child(3) {
+        color: #7e7d7d;
+        font-size: 11px;
+        margin: 0px 0px;
+        margin-left: 100px;
+    }
+    .slideshow {
+        width: 500px;
+        height: 525px;
+        overflow: hidden;
+    }
+    .contact,
+    .contact p {
+        background: white;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+    }
+    .contact button {
+        width: 100px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-top: 9px;
+    }
+    footer {
+        height: 200px;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    footer p:nth-child(1),
+    footer p:nth-child(2) {
+        font-size: 12px;
+        color: white;
+    }
+    .copyright {
+        font-size: 12px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body,
+    .projects {
+        padding: 3px;
+        margin: 1px;
+    }
+    .text-container p:nth-child(1) {
+        font-size: 17px;
+    }
+    .text-container p:nth-child(2) {
+        letter-spacing: 0px;
+        color: white;
+        font-size: 18px;
+        margin: 0 0;
+    }
+    .text-container p:nth-child(3) {
+        color: burlywood;
+        font-size: 21px;
+        line-height: 18px;
+        margin: 15px 0;
+    }
+    /*------------why is it offset-------------?*/
+    .text-container button {
+        width: 79px;
+        height: 29px;
+        border-radius: 10px;
+        font-size: 10px;
+        margin: 0 0 0 0;
+    }
+    .btn-container {
+        display: flex;
+    }
+    section {
+        height: 85vw;
+        box-shadow: white;
+    }
+    .model {
+        margin-left: 14px;
+        height: 38vw;
+        top: 200px;
+    }
+    nav ul li a {
+        display: block;
+        font-size: 17px;
+        color: silver;
+        box-shadow: whitesmoke;
+    }
+    /*nav bar for slideshow is acting funny when in this viewport size*/
+    .navigation {
+        width: 120px;
+        top: 55%;
+    }
+    .bar {
+        border: 2px solid silver;
+    }
+    .about-container img {
+        height: 130px;
+    }
+    .about-container {
+        max-width: cover;
+        padding: 10%;
+    }
+    .about-text button {
+        height: 25px;
+        width: 90px;
+        font-size: 10px;
+        color: black;
+        margin-top: 3px;
+    }
+    .about-text p:nth-child(1) {
+        display: flex;
+        font-size: 13px;
+        line-height: 0px;
+        margin-bottom: 14px;
+        margin-top: 14px;
+    }
+    .about-text p:nth-child(2) {
+        font-size: 10px;
+        line-height: 5px;
+        margin-bottom: 10px;
+    }
+    .about-text p:nth-child(3),
+    .about-text p:nth-child(4) {
+        font-size: 10px;
+        margin: auto;
+    }
+    .projects-text p:nth-child(1) {
+        font-size: 18px;
+        line-height: 0px;
+        margin-bottom: 16px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .projects-text p:nth-child(2) {
+        font-size: 12px;
+        line-height: 5px;
+        margin-bottom: 3px;
+        margin-left: 35px;
+        margin-right: 35px;
+        word-wrap: wrap;
+    }
+    .projects-text p:nth-child(3) {
+        color: #7e7d7d;
+        font-size: 11px;
+        margin: 0px 0px;
+        margin-left: 35px;
+        margin-right: 73px;
+    }
+    /*Fix height of navigation bar. using hard px was screwing with the viewport vs the element */
+    .slideshow {
+        width: 85%;
+        height: 40%;
+        overflow: hidden;
+    }
+    .contact,
+    .contact p {
+        background: black;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .contact button {
+        width: 96px;
+        height: 40px;
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-top: 9px;
+    }
+    footer p:nth-child(1) {
+        font-size: 12px;
+        color: white;
+        justify-content: center;
+    }
+    footer p:nth-child(2) {
+        width: 100%;
+        font-size: 12px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media a {
+        margin: 30px 3px;
+    }
+    .copyright {
+        width: 90%;
+        font-size: 12px;
+    }
+}
