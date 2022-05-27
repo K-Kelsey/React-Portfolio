@@ -9,7 +9,7 @@ export default function About(props) {
             <div className="about-text">
                 <p>About Me</p>
                 <p></p>
-                <p>Hello! My name is Kaden Kelsey, I have recently achieved certification in web development through the University of Washington Full Stack Flex Program! During my downtime, I enjoy cooking, reading, gaming and playing music.  I love to go camping and hiking when outdoors and love to be on the water, whether that is boating, fishing or swimming.  Native Washingtonian that has been traversing the ranks of the kitchen for most of my professional adult career life.  Ambitious and hungry for a new career field, searching for lucrative exposure to hoan my developing skillsets!
+                <p>Hello! My name is Kaden Kelsey, I have recently achieved a certificate in web development through the University of Washington Full Stack Flex Program! During my downtime, I enjoy cooking, reading, gaming and playing music.  I love to go camping and hiking when outdoors and love to be on the water, whether that is boating, fishing or swimming.  Native Washingtonian that has been traversing the ranks of the kitchen for most of my professional adult career life.  Ambitious and hungry for a new career field, searching for lucrative exposure to hoan my developing skillsets!
                 </p>
 
                 <p>
