@@ -16,7 +16,7 @@ export default function Contact() {
         </div>
 
         <div>
-          <button><a className="button" style={{ color: 'black' }} href="mailto:kadenkelsey3@yahoo.com">Email Me</a></button>
+          <button><a className="button" style={{ color: 'black' }} href="mailto:kadenkelsey33@gmail.com">Email Me</a></button>
         </div>
 
 

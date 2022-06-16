@@ -28,8 +28,8 @@ export default function Home() {
 
         <div className="btn-container">
           {/* <button>Hire This Nugget</button> */}
-          <a href="https://drive.google.com/file/d/1jjbYcf1OPMqlflKkJZVYoZoSf3QCn7mh/view?usp=sharing"><button >View My Resume</button></a>
-          <a className="button" href="https://drive.google.com/uc?export=download&id=1jjbYcf1OPMqlflKkJZVYoZoSf3QCn7mh"><button><span class="bi bi-save"></span>Download my Resume</button></a>
+          <a href="https://docs.google.com/document/d/1elrPjXcFvnlanyo02Pn5hJgyqprjqgT0/edit?usp=sharing&ouid=106786590521027625446&rtpof=true&sd=true"><button >View My Resume</button></a>
+          <a className="button" href="https://drive.google.com/uc?export=download&id=1elrPjXcFvnlanyo02Pn5hJgyqprjqgT0"><button><span class="bi bi-save"></span>Download my Resume</button></a>
           
         </div>
       </div>

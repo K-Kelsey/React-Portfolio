@@ -16,7 +16,7 @@ export default function About(props) {
                 My experience includes: Git/GitHub, React, JavaScript, HTML, CSS, jQuery, MySQL, Heroku, Node.js, Express.js, Sequelize, Handlebars.js, Insomnia, MongoDB, BootStrap.
                 </p>
 
-                <button><a className="button" style={{ color: 'black', textDecoration: 'none' }} href="mailto:kadenkelsey3@yahoo.com">Hire This Nugget</a></button>
+                <button><a className="button" style={{ color: 'black', textDecoration: 'none' }} href="mailto:kadenkelsey33@gmail.com">Hire This Nugget</a></button>
 
                 {/* <button><a className="button" style={props.style} href="https://docs.google.com/document/d/e/2PACX-1vTKeDXwI6Zx25Trj_2xfHoh3zmVdlAD68Ij8OYdlPO3AYt_Y-2VEhluLmeJww1uKg/pub"></a>View My Resume</button>
                  <button><a className="button" style={props.style} href="../../../public/assets/Kaden resume.docx.pdf" download="Kaden's Resume" target="_blank"></a>Hire This Nugget</button>  
